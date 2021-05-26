@@ -1,0 +1,59 @@
+//2021.05.26
+
+/*
+Usally use const rather than variable
+variable : let
+constant : const
+*/
+
+let currentTempC = 22; // variable
+let targetTempC; // undefined
+let a = "aaa", b = "bbb"; //Multiple variable
+
+const ROOM_TEMP_C = 21.5, MAX_TEMP_C = 30; // const
+
+/*
+identifier : variable and constant, function name
+
+camel case : currentTempC
+snake case : current_temp_c
+*/
+
+let room1 = "conference_room_a"; // literal
+
+/*
+primitive : number, array, boolean, null, undefined, Symbol
+Object : Array, Date, RegExp, Map and WeakMap, Set and WeakSet
+
+Array expression : (" ' `)
+*/
+
+const obj = { //object
+  color :  yellow, //property 'color'
+  not an identifier = 3,
+}
+const sam1 = {
+  name : 'Sam',
+  age : 4,
+};
+
+const sam2 = {name : 'Sam', age : 4}; // Declare in One Line
+
+const sam3 = {
+  name : 'Sam',
+  classification : { // Property values can also be objects
+    kingdom : 'Anamalia',
+    phylum : 'Chordata',
+    class : 'Manalia',
+    //...
+  }
+}
+
+/*
+null is the data type allowed by the programmer
+Undefined is used by JavaScript itself
+*/
+
+//~3.13
+
+ 
